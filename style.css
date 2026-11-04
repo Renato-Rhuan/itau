@@ -7,7 +7,7 @@ button{font:inherit;cursor:pointer;border:0}
 :focus-visible{outline:3px solid var(--navy);outline-offset:3px}
 
 /* logo */
-.logo{--s:40px;width:var(--s);height:var(--s);display:inline-grid;place-items:center;background:var(--or);color:#fff;border-radius:28%;font-weight:800;font-size:calc(var(--s)*.4);letter-spacing:-.05em}
+.logo{--s:40px;width:var(--s);height:var(--s);display:inline-grid;place-items:center;background:var(--or);color:#fff;border-radius:28%;font-weight:600;font-size:calc(var(--s)*.4);letter-spacing:-.05em}
 
 /* header */
 .nav{position:fixed;top:16px;left:50%;transform:translateX(-50%);width:min(1120px,calc(100% - 24px));z-index:50;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:10px 16px;background:rgba(255,255,255,.88);backdrop-filter:blur(12px);border-radius:999px;box-shadow:0 8px 30px rgba(0,0,0,.12)}
@@ -130,3 +130,10 @@ footer{background:var(--dk);color:#6c6f7c;text-align:center;font-size:12px;paddi
  section{padding:70px 0}
 }
 @media(prefers-reduced-motion:reduce){.partners div,.ring{animation:none}html{scroll-behavior:auto}}
+
+
+.icone {
+    width: 22px;
+    padding-right: 4px;
+    padding-top: 2px;
+}
