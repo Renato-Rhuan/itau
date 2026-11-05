@@ -36,7 +36,7 @@
   gsap.set(ring, { rotationX: -6 });
   let timer;
   const tick = () => {
-    gsap.to(ring, { rotationY: '+=72', duration: 0.8, ease: 'power2.inOut' });
+    gsap.to(ring, { rotationY: '+=72', duration: 0.6, ease: 'power2.inOut' });
     timer.restart(true);
   };
   timer = gsap.delayedCall(1.5, tick).pause();
